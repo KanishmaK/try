@@ -1,0 +1,34 @@
+⚡ Quick Temporary Fix (Terminal only)
+If you don’t want to reopen the folder:
+In the terminal, just run:
+cd "C:\Users\kanis\OneDrive\Desktop\test git" 
+This changes directory only for that terminal session.
+
+To get the repo to vs:
+ git clone codelink:
+To modify a existing file/to add file/delete a file in vs to git:
+ git add filename.txt
+ git commit -m”…..”
+------stagging area------
+ git push origin main
+……..modified&added…………
+To change the directory/open new folder in terminal
+ cd file1(in folder)--opens file1
+ cd ..(moves to folder)
+ cd file2(in folder)--opens file2
+
+……..to create repo/folder in vs and then push to git:
+
+ git init ----1st->intializes a empty repo
+ to reduce more add,commit,push:
+ *use* -> 
+ git add .
+ git commit -m”….”
+git remote add origin (link)
+ git branch --- to check push branch name(main)
+To change branch name --
+ git branch -M main
+
+
+
+ 
